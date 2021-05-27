@@ -1,0 +1,167 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+</style>
+
+body {
+  margin: 0;
+}
+header {
+  background-color: white;
+  padding: 10px;
+}
+header ul {
+  float: middle;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+  }
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: left;
+}
+.heroImg {
+  background-color: white;
+  background-image: fill;
+  padding: 200px 200px;
+  grid-column: 50% 50%;
+}
+.content { 
+ max-width: 50%;
+ margin: auto;
+ padding: 100px;
+ background-color: white;
+ text-align: center;
+ grid-column: 50% 50%;
+}
+button {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  background-color: white;
+  font-family: Montserrat;
+  padding: 5px;
+  text-align: center;
+  color: black;
+}
+footer ul {
+  list-style: bold;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 30px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+  border: 1px solid white;
+}
+.flexContainer div {
+  padding: 10px 10px;
+  padding-top: 0;
+  background color: white;
+  display:grid;
+}
+
+/* My Work Section */
+.myWork {
+  padding: 10px 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  background-color: #D58FB3;
+  padding-bottom: 15px;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  padding: 5px 5px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1
+
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 10px;
+  align-items: stretch;
+}
+.content1 {
+  grid-area: content1;
+  width: stretch;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.footer {
+  background: #c8bde9;
+  color: white;
+  height: 50px;
+  position: relative;
+}
+.footer .footer-bottom {
+  background:  #c8bde9;
+  color: white;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px ;
+  padding-top: 20 px;
+}
+
